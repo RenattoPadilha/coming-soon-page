@@ -2,6 +2,7 @@ body{
     font-family: 'Josefin Sans', 'sans-serif';
     font-weight: 400;
     margin: 0;
+    text-align: center;
 }
 
 .attribution { 
@@ -11,6 +12,21 @@ body{
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+.title{
+    font-weight: 600;
+    letter-spacing: 7px;
+    color: hsl(0, 6%, 24%);
+}
+
+.light-title{
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+}
+
+.description-text{
+    color: hsl(0, 36%, 70%);
 }
 
 .woman-image{
