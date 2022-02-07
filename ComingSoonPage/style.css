@@ -16,10 +16,21 @@ body{
     color: hsl(228, 45%, 44%); 
 }
 
+.description-section{
+    font-size: 14px;
+    padding: 0vh 10vw 4vh;
+}
+
+.description-text{
+    color: hsl(0, 36%, 70%);
+    margin: 0;
+}
+
 .title{
     font-weight: 600;
     letter-spacing: 7px;
     color: hsl(0, 6%, 24%);
+    margin: 0;
 }
 
 .light-title{
@@ -27,10 +38,21 @@ body{
     font-weight: 300;
 }
 
-.description-text{
-    color: hsl(0, 36%, 70%);
+.header-section{
+    text-align: left;
+    padding: 3vh 10vw;
+}
+
+.title-section{
+    padding: 7vh 10vw 2vh;
 }
 
 .woman-image{
     display: block;
+    height: auto;
+    width: 100vw;
+}
+
+.main-icon{
+    width: 25vw;
 }
