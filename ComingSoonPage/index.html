@@ -30,12 +30,16 @@
   </div>
 
   <div class="forms-section">
-    <form action="post" onsubmit="" >
-      <input type="email" id="femail" placeholder="Email Address" required>
-      <button formaction="">></button>
+    <form action="post" onsubmit="" novalidate>
+      <div class="flex-container">
+        <input type="email" id="femail" placeholder="Email Address" required>
+        <img class="error-symbol hidden" src="images/icon-error.svg" alt="">
+        <button class="send-form" formaction=""><img src="images/icon-arrow.svg" alt=""></button>
+      </div>
+      <span class="error-msg" aria-live="polite"></span>
     </form>
   </div>
-
+  
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
@@ -52,7 +56,7 @@
   3 - [OK]Colocar inteligencia para erro de forms
   4 - [OK]Melhorar Textos
   5 - [OK]Adicionar cores ao background
-  6 - Melhorar aparencia Input Symbol e adicionar erro visual
+  6 - [OK]Melhorar aparencia Input Symbol e adicionar erro visual
   7 - [OK]Organizar tamanho de Paddings
   8 - [OK]Melhorar tamanho das imagens (how to change img with change of size of screen)
   9 - Fazer Responsividade

@@ -26,6 +26,10 @@ body{
     margin: 0;
 }
 
+.forms-section{
+    padding: 0 9vw;
+}
+
 .title{
     font-weight: 600;
     letter-spacing: 7px;
@@ -47,6 +51,29 @@ body{
     padding: 7vh 10vw 2vh;
 }
 
+.error-msg{
+    color: hsl(0, 93%, 68%);
+    display: block;
+    text-align: left;
+    font-size: 11px;
+    padding-left: 20px;
+}
+
+.error-symbol{
+    height: 18px;
+    margin: auto 10px;
+}
+
+.flex-container{
+    border: solid hsl(0, 36%, 70%);
+    border-radius: 30px;
+    border-width: 1px 0px 1px 1px;
+    display: flex;
+    margin: 0 0 5px;
+    padding-left: 17px;
+}
+
+
 .woman-image{
     display: block;
     height: auto;
@@ -55,4 +82,36 @@ body{
 
 .main-icon{
     width: 25vw;
+}
+
+#femail{
+    background-color: transparent;
+    border: 0;
+    flex: 1;
+    font-family: 'Josefin Sans', 'sans-serif';
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+#femail::placeholder{
+    color: hsl(0, 36%, 70%);
+    font-family: 'Josefin Sans', 'sans-serif';
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.red-border{
+    border-width: 1px;
+    border-color: hsl(0, 93%, 68%);
+}
+
+.send-form{
+    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    border-radius: 30px;
+    border: 0px;
+    padding: 5.5px 20px;
 }
